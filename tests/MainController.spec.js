@@ -10,7 +10,7 @@ describe('MainController', function () {
 
 	it('should have some properties', function () {
 		var $scope = {};
-
+		
 		$controller('MainController', { $scope: $scope });
 
 		expect(Object.keys($scope).length).not.toBe(0);
